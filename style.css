@@ -222,9 +222,8 @@ body.single .entry-title,body.page .entry-title,.result-nothing-found .entry-tit
 #sidebar .widget_zalive_widget_social_links{margin-bottom:10px;}
 .widget_zalive_widget_social_links  p{margin:15px 0px 0px 2px;}
 .widget_zalive_widget_social_links .social-link{display:inline-block;margin:0 11px 10px 0;}
-.widget_zalive_widget_recentcomments ul li{margin-bottom:8px;}
-.widget_zalive_widget_recentcomments img.avatar{margin-right:7px;float:left;}
-.widget_zalive_widget_recentcomments .comment-data{float:left;width:150px;}
+.widget_zalive_widget_recentcomments ul li{position: relative;margin-bottom:8px;padding-left: 47px;min-height: 40px;}
+.widget_zalive_widget_recentcomments img.avatar{position:absolute;left: 0; top: 0;}
 .widget_zalive_widget_recentcomments a.title,.widget_zalive_widget_recentcomments span.detailed{display:block;height:18px;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
 .widget_zalive_widget_recentcomments .detailed{font-size:12px;margin-top:2px;}
 .widget_zalive_widget_mostcommentedandrandomarticles .nav-tabs{border:0;margin:10px 0 15px;}

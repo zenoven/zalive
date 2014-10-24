@@ -54,19 +54,6 @@
       });
     }
     
-    
-    //if zAlive recent comments widget is enabled,set its width automaticlly
-    if($('.widget_zalive_widget_recentcomments').length != 0){
-      function setSidebarCommentWidth(){
-        var e = $('.widget_zalive_widget_recentcomments');
-        e.find('.comment-data').css('width', e.find('img.avatar').css('display')=='none' ? '100%' : e.find('li').width() - e.find('img.avatar').width() - 8);
-      }
-      setSidebarCommentWidth();
-      $(window).bind('resize load',function(){
-        setSidebarCommentWidth();
-      });
-    }
-    
     //beautify the form and submit button on respond form
     $('#respond .form-submit').addClass('row-fluid').prepend('<div class="span2 divider"></div>');
     $('#respond  #submit').addClass('btn pull-left');
