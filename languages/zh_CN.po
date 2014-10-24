@@ -1,0 +1,687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zAlive 1.2.10\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/zalive\n"
+"POT-Creation-Date: 2013-10-12 14:20:24+00:00\n"
+"PO-Revision-Date: 2013-10-12 22:24+0800\n"
+"Last-Translator: \n"
+"Language-Team: zAlive <mail@zenoven.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_ex:1,2c;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: 404.php:13 functions.php:132
+msgid "Error 404,Page Not Found"
+msgstr "404错误，页面未找到"
+
+#: 404.php:15
+msgid ""
+"We&rsquo;re sorry but the page is not existed or deleted by the "
+"administrator. Perhaps searching can help."
+msgstr "非常抱歉，您查找的页面不存在或已删除。搜索也许会有所帮助。"
+
+#: 404.php:18
+msgid "Or you may want to : "
+msgstr "您还可以："
+
+#: 404.php:19
+msgid "Back to Home "
+msgstr "返回首页"
+
+#: comments.php:13
+msgid "Only 1 comment left"
+msgid_plural "There are %1$s comments left"
+msgstr[0] "仅有1条评论"
+msgstr[1] "已有%1$s条评论"
+
+#: comments.php:17
+msgctxt "go to comment"
+msgid "Go To Comment"
+msgstr "发表评论"
+
+#: comments.php:27
+msgid "Comment Pagination: "
+msgstr "评论分页："
+
+#: comments.php:28 index.php:32
+msgid "Previous Page"
+msgstr "上一页"
+
+#: comments.php:28 index.php:33
+msgid "Next Page"
+msgstr "下一页"
+
+#: comments.php:37 comments.php:48
+msgid "Comment is closed."
+msgstr "评论已关闭。"
+
+#: functions.php:15
+msgid "Top Nav Menu"
+msgstr "顶部导航菜单"
+
+#: functions.php:16
+msgid "Footer Custom Links"
+msgstr "页脚自定义链接"
+
+#: functions.php:20
+msgid "Primary Sidebar"
+msgstr "主边栏"
+
+#: functions.php:29 template/options.php:198 template/options.php:211
+msgid "Secondary Sidebar"
+msgstr "从边栏"
+
+#: functions.php:68
+msgid "Page %s"
+msgstr "第%s页"
+
+#: functions.php:81
+msgid "You are here"
+msgstr "当前位置"
+
+#: functions.php:122
+msgid "Posts with tag [ <strong> %s </strong> ] "
+msgstr "标签为 [ <strong> %s </strong> ] 的文章"
+
+#: functions.php:127
+msgid "Search result for [ <strong> %s </strong> ] "
+msgstr "[ <strong> %s </strong> ] 的搜索结果"
+
+#: functions.php:138
+msgid "Posts from author [ <strong> %s </strong> ] "
+msgstr "[ <strong> %s </strong> ] 发表的文章"
+
+#: functions.php:143
+msgid "Y/m/d"
+msgstr "Y年m月d日"
+
+#: functions.php:145
+msgid "Daily archives for <strong> %s </strong>"
+msgstr "<strong> %s </strong> 的文章"
+
+#: functions.php:150
+msgid "Y/m"
+msgstr "Y年m月"
+
+#: functions.php:152
+msgid "Monthly archives for <strong> %s </strong>"
+msgstr "<strong> %s </strong> 的文章"
+
+#: functions.php:157
+msgid "Y"
+msgstr "Y年"
+
+#: functions.php:159
+msgid "Yearly archives for <strong> %s </strong>"
+msgstr "<strong> %s </strong> 的文章"
+
+#: functions.php:173
+msgid "Untitled Post"
+msgstr "无标题文章"
+
+#: functions.php:245 template/entry-meta-primary-page.php:14
+#: template/entry-meta-primary.php:13
+msgid "1 Comment"
+msgid_plural "%s Comments"
+msgstr[0] "1评论"
+msgstr[1] "%s评论"
+
+#: functions.php:273
+msgid "Search Widget From zAlive"
+msgstr "zAlive主题集成的搜索框"
+
+#: functions.php:274
+msgid "Search(zAlive)"
+msgstr "搜索(zAlive)"
+
+#: functions.php:283 template/header.php:40
+msgid "Type and search..."
+msgstr "输入文字以搜索"
+
+#: functions.php:283 functions.php:292 template/header.php:41
+msgid "Search"
+msgstr "搜索"
+
+#: functions.php:296 functions.php:338 functions.php:385 functions.php:426
+#: functions.php:592
+msgid "Title"
+msgstr "标题"
+
+#: functions.php:306
+msgid "Recent Comments Widget From zAlive"
+msgstr "zAlive主题集成的带头像最新评论"
+
+#: functions.php:307
+msgid "Recent Comments(zAlive)"
+msgstr "最新评论(zAlive)"
+
+#: functions.php:331 sidebar.php:13
+msgid "Recent Comments"
+msgstr "最新评论"
+
+#: functions.php:341
+msgid "Comments Count"
+msgstr "评论条数"
+
+#: functions.php:344
+msgid "Avatar Size"
+msgstr "头像尺寸"
+
+#: functions.php:347
+msgid "Maximum Count Of Comment Characters"
+msgstr "评论最大字符数"
+
+#: functions.php:357
+msgid "Most Commented Posts Widget From zAlive"
+msgstr "zAlive主题集成的热门评论文章"
+
+#: functions.php:358
+msgid "Most Commented Posts(zAlive)"
+msgstr "热评文章(zAlive)"
+
+#: functions.php:380
+msgid "Most Commented Posts"
+msgstr "热评文章"
+
+#: functions.php:388 functions.php:429
+msgid "Post Count"
+msgstr "文章条数"
+
+#: functions.php:398
+msgid "Random Posts Widget From zAlive"
+msgstr "zAlive主题集成的随机文章"
+
+#: functions.php:399
+msgid "Random Posts(zAlive)"
+msgstr "随机文章(zAlive)"
+
+#: functions.php:421 functions.php:472
+msgid "Random Posts"
+msgstr "随机文章"
+
+#: functions.php:439
+msgid "Most Commented & Random Posts Widget From zAlive (with tab switch )"
+msgstr "zAlive主题集成的热评文章&随机文章(tab切换)"
+
+#: functions.php:440
+msgid "Most Commented & Random Posts(zAlive)"
+msgstr "热评文章&随机文章(zAlive)"
+
+#: functions.php:472
+msgctxt "Most Commented Posts"
+msgid "Most Commented"
+msgstr "热评文章"
+
+#: functions.php:479
+msgid "Title(Most Commented Posts)"
+msgstr "标题（热评文章）"
+
+#: functions.php:482
+msgid "Count(Most Commented Posts)"
+msgstr "条数（热评文章）"
+
+#: functions.php:485
+msgid "Title(Random Posts)"
+msgstr "标题（随机文章）"
+
+#: functions.php:488
+msgid "Count(Random Posts)"
+msgstr "条数（随机文章）"
+
+#: functions.php:498
+msgid "Social Links Widget From zAlive"
+msgstr "zAlive主题集成的社交链接"
+
+#: functions.php:499
+msgid "Social Links(zAlive)"
+msgstr "社交链接(zAlive)"
+
+#: functions.php:504 functions.php:595
+msgid "Contact Email"
+msgstr "联系邮箱"
+
+#: functions.php:505 functions.php:598
+msgid "RSS"
+msgstr "RSS"
+
+#: functions.php:506 functions.php:601
+msgid "Twitter"
+msgstr "Twitter"
+
+#: functions.php:507 functions.php:604
+msgid "Facebook"
+msgstr "Facebook"
+
+#: functions.php:508 functions.php:607
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: functions.php:509 functions.php:610
+msgid "YouTube"
+msgstr ""
+
+#: functions.php:510 functions.php:613
+msgid "Linkedin"
+msgstr ""
+
+#: functions.php:511 functions.php:616
+msgid "Pinterest"
+msgstr ""
+
+#: functions.php:512 functions.php:619
+msgid "Myspace"
+msgstr ""
+
+#: functions.php:513 functions.php:622
+msgid "deviantART"
+msgstr ""
+
+#: functions.php:514 functions.php:625
+msgid "Flickr"
+msgstr ""
+
+#: functions.php:515 functions.php:628
+msgid "SoundCloud"
+msgstr ""
+
+#: functions.php:516 functions.php:631
+msgid "Vimeo"
+msgstr ""
+
+#: functions.php:517 functions.php:634
+msgid "Tumblr"
+msgstr ""
+
+#: functions.php:518 functions.php:637
+msgid "Orkut"
+msgstr ""
+
+#: functions.php:519 functions.php:640
+msgid "VKontakte"
+msgstr ""
+
+#: functions.php:520 functions.php:643
+msgid "Weibo"
+msgstr "新浪微博"
+
+#: functions.php:717
+msgid "Go Top"
+msgstr "回到顶部"
+
+#: functions.php:737
+msgid "Pingback: "
+msgstr "引用通知："
+
+#. translators: 1: date, 2: time
+#: functions.php:744 functions.php:772
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:747
+msgid "(Edit)"
+msgstr "(编辑)"
+
+#: functions.php:767
+msgid "Post Author"
+msgstr "本文作者"
+
+#: functions.php:778
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论需要管理员审核后才能显示。"
+
+#: functions.php:787
+msgid "Edit"
+msgstr "编辑"
+
+#: functions.php:788
+msgid "Reply"
+msgstr "回复"
+
+#: functions.php:952 template/options.php:8
+msgid "zAlive Theme Settings"
+msgstr "zAlive主题设置"
+
+#: functions.php:952
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: functions.php:965
+msgid "All settings will be set to default.Do you want to restore anyway ?"
+msgstr "所有设置都将恢复为默认值。确定初始化主题设置？"
+
+#: page.php:19 template/content.php:13 template/page-full-width.php:17
+msgid "Pages: "
+msgstr "分页："
+
+#: reply.php:12
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: reply.php:13
+msgid "Leave a Reply to %s"
+msgstr "回复给%s"
+
+#: reply.php:14
+msgid "Cancle Reply"
+msgstr "取消回复"
+
+#: reply.php:15
+msgctxt "submit comment"
+msgid "Post Comment"
+msgstr "发布评论"
+
+#: reply.php:17
+msgctxt "noun"
+msgid "Comment"
+msgstr "评论"
+
+#: reply.php:23
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须在 <a href=\"%s\">登录</a> 后才能评论."
+
+#: reply.php:29
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"已登录为 <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"退出登录此账号"
+"\">退出？</a>"
+
+#: reply.php:43
+msgid "Name"
+msgstr "名称"
+
+#: reply.php:43 reply.php:48
+msgid "required"
+msgstr "必填"
+
+#: reply.php:48
+msgid "Email"
+msgstr "邮箱"
+
+#: reply.php:54
+msgid "Website"
+msgstr "网址"
+
+#: template/content-none.php:8
+msgid "Nothing found"
+msgstr "未查找到相关内容"
+
+#: template/content-none.php:11
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布你的第一篇文章了吗？<a href=\"%1$s\">出发！</a>"
+
+#: template/content-none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr "非常抱歉，未查询到符合条件的结果，请更换关键词后重试。"
+
+#: template/content-none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "我们似乎找不到你正在寻找的内容，您可以尝试搜索一下。"
+
+#: template/entry-meta-primary-page.php:9 template/entry-meta-primary.php:9
+msgid "Author: "
+msgstr "作者："
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "No comment yet"
+msgstr "暂无评论"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "% Comments"
+msgstr "%评论"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "Comments Off"
+msgstr "评论已关闭"
+
+#: template/entry-meta-secondary.php:8
+msgid "Posted in"
+msgstr "分类"
+
+#: template/entry-meta-secondary.php:12
+msgid "Tags"
+msgstr "标签"
+
+#: template/entry-meta-tertiary.php:9
+msgid "Short URL for this post : "
+msgstr "本文短网址："
+
+#: template/entry-meta-tertiary.php:11
+msgid "URL for this post : "
+msgstr "本文链接地址："
+
+#: template/options.php:10
+msgid "All settings saved."
+msgstr "设置已保存。"
+
+#: template/options.php:18
+msgid "General"
+msgstr "基础"
+
+#: template/options.php:21
+msgid "Open Comment Author Link In New Window"
+msgstr "新窗口打开评论者链接"
+
+#: template/options.php:22 template/options.php:26 template/options.php:30
+#: template/options.php:50 template/options.php:64 template/options.php:68
+#: template/options.php:72 template/options.php:76 template/options.php:80
+#: template/options.php:90 template/options.php:204
+msgid "Enable"
+msgstr "启用"
+
+#: template/options.php:25
+msgid "Enable zAlive WP-PageNavi Style"
+msgstr "启用zAlive主题WP-PageNavi样式"
+
+#: template/options.php:29
+msgid "Automatic Excerpt In List Page"
+msgstr "列表页自动摘要"
+
+#: template/options.php:33
+msgid "Automatic Excerpt Length(in word)"
+msgstr "自动摘要长度(字数)"
+
+#: template/options.php:37
+msgid "Text for \"Read More\""
+msgstr "自定义\"阅读更多\"文字"
+
+#: template/options.php:41
+msgid "Advertisement Code(in content page)"
+msgstr "广告代码(内容页)"
+
+#: template/options.php:46
+msgid "Layout"
+msgstr "布局"
+
+#: template/options.php:49
+msgid "Hide Posts List And Primary Sidebar In Homepage"
+msgstr "首页不显示文章列表和主侧边栏"
+
+#: template/options.php:53
+msgid "Primary Sidebar Layout"
+msgstr "主侧边栏布局"
+
+#: template/options.php:56
+msgid "Shown On The Right"
+msgstr "显示在右侧"
+
+#: template/options.php:57
+msgid "Shown On The Left"
+msgstr "显示在左侧"
+
+#: template/options.php:58
+msgid "Hidden"
+msgstr "隐藏"
+
+#: template/options.php:63
+msgid "Show Tagline Directly"
+msgstr "直接显示网站标语（描述）"
+
+#: template/options.php:67
+msgid "Header Searchbox"
+msgstr "头部搜索框"
+
+#: template/options.php:71
+msgid "Breadcrumb(Path) Navigation"
+msgstr "路径导航（当前位置导航）"
+
+#: template/options.php:75
+msgid "Show \"GoTop\" When Scrolling"
+msgstr "页面滚动时显示\"回到顶部\""
+
+#: template/options.php:79
+msgid "Show Post URL In Post Page"
+msgstr "在文章页面注明文章URL"
+
+#: template/options.php:84
+msgid "Slider"
+msgstr "幻灯片"
+
+#: template/options.php:87 template/options.php:201
+msgid "Enable Or Not"
+msgstr "是否启用"
+
+#: template/options.php:91 template/options.php:205
+msgid "Enable In Home Page"
+msgstr "只在首页启用"
+
+#: template/options.php:92 template/options.php:206
+msgid "Disable"
+msgstr "禁用"
+
+#: template/options.php:97
+msgid "Pause Time(in millisecond)"
+msgstr "停留时间（毫秒）"
+
+#: template/options.php:101 template/options.php:125 template/options.php:149
+#: template/options.php:173
+msgid "Slider%s Image"
+msgstr "幻灯片%s图片"
+
+#: template/options.php:109 template/options.php:133 template/options.php:157
+#: template/options.php:181
+msgid "Select Image"
+msgstr "选择图片"
+
+#: template/options.php:109 template/options.php:133 template/options.php:157
+#: template/options.php:181
+msgid "or enter the image URL here"
+msgstr "或直接输入图片网址"
+
+#: template/options.php:113 template/options.php:137 template/options.php:161
+#: template/options.php:185
+msgid "Slider%s Title"
+msgstr "幻灯片%s标题"
+
+#: template/options.php:117 template/options.php:141 template/options.php:165
+#: template/options.php:189
+msgid "Slider%s Content"
+msgstr "幻灯片%s内容"
+
+#: template/options.php:121 template/options.php:145 template/options.php:169
+#: template/options.php:193
+msgid "Slider%s Link URL"
+msgstr "幻灯片%s链接"
+
+#: template/options.php:212
+msgid ""
+"Set in : <code>&nbsp;WordPress Admin > Appearance > Widgets&nbsp;</code>"
+msgstr "请在：<code>&nbsp;WordPress后台 > 外观 > 小工具&nbsp;</code>中设置"
+
+#: template/options.php:216
+msgid "Footer"
+msgstr "页脚"
+
+#: template/options.php:219
+msgid "Copyright Text"
+msgstr "版权说明"
+
+#: template/options.php:223
+msgid "Custom Links"
+msgstr "自定义链接"
+
+#: template/options.php:224
+msgid "Set in : <code>&nbsp;WordPress Admin > Appearance > Menus&nbsp;</code>"
+msgstr "请在：<code>&nbsp;WordPress后台 > 外观 > 菜单&nbsp;</code>中设置"
+
+#: template/options.php:228
+msgid "Custom CSS Styles And Scripts"
+msgstr "自定义CSS样式及脚本"
+
+#: template/options.php:231
+msgid "Custom CSS Style"
+msgstr "自定义CSS样式代码"
+
+#: template/options.php:235
+msgid "Header Custom Scripts"
+msgstr "自定义头部脚本"
+
+#: template/options.php:239
+msgid "Footer Custom Scripts"
+msgstr "自定义页脚脚本"
+
+#: template/options.php:244
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: template/options.php:245
+msgid "Restore Defaults"
+msgstr "恢复默认值"
+
+#. Theme Name of the plugin/theme
+msgid "zAlive"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.zenoven.com/themes/zAlive"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"zAlive is a responsive two columns theme with green and black color. With "
+"rich options you can custom the slider, excerpt, advertisement code,primary "
+"sidebar layout, copyright, nav menu, CSS style, scripts and more."
+msgstr ""
+"zAlive是一款响应式两列（也可设置为单列）布局、黑绿两主色搭配的主题。通过丰富"
+"的主题选项你可以自定义：幻灯片、摘要、广告代码、主侧边栏布局（左/右/隐藏）、"
+"菜单、CSS代码、JS代码（头部/底部）"
+
+#. Author of the plugin/theme
+msgid "zenoven"
+msgstr "自由人"
+
+#. Author URI of the plugin/theme
+msgid "http://www.zenoven.com/"
+msgstr ""
+
+#. Template Name of the page template for Archive
+msgid "Archive"
+msgstr "归档"
+
+#. Template Name of the page template for Category
+msgid "Category"
+msgstr "分类"
+
+#. Template Name of the page template for Full Width
+msgid "Full Width"
+msgstr "全宽"
+
+#. Template Name of the page template for Links
+msgid "Links"
+msgstr "链接表"
+
+#~ msgid "[Read More...]"
+#~ msgstr "[阅读全文...]"

@@ -1,0 +1,700 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zAlive 1.2.10\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/zalive\n"
+"POT-Creation-Date: 2013-10-12 14:20:24+00:00\n"
+"PO-Revision-Date: 2013-10-12 22:25+0800\n"
+"Last-Translator: \n"
+"Language-Team: zAlive <mail@zenoven.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_ex:1,2c;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: 404.php:13 functions.php:132
+msgid "Error 404,Page Not Found"
+msgstr "Ошибка 404. Страница не найдена."
+
+#: 404.php:15
+msgid ""
+"We&rsquo;re sorry but the page is not existed or deleted by the "
+"administrator. Perhaps searching can help."
+msgstr ""
+"Извините, но запрашиваемая Вами страница не существует или удалена "
+"администратором. Чтобы найти нужную Вам страницу, попробуйте воспользоваться "
+"функцией поиска"
+
+#: 404.php:18
+msgid "Or you may want to : "
+msgstr "Также вы можете перейти："
+
+#: 404.php:19
+msgid "Back to Home "
+msgstr "На главную страницу"
+
+#: comments.php:13
+msgid "Only 1 comment left"
+msgid_plural "There are %1$s comments left"
+msgstr[0] "Только один комментарий"
+msgstr[1] "Всего комментариев: %1$s"
+
+#: comments.php:17
+msgctxt "go to comment"
+msgid "Go To Comment"
+msgstr "Комментировать"
+
+#: comments.php:27
+msgid "Comment Pagination: "
+msgstr "Разбивка комментариев："
+
+#: comments.php:28 index.php:32
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: comments.php:28 index.php:33
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: comments.php:37 comments.php:48
+msgid "Comment is closed."
+msgstr "Комментирование закрыто"
+
+#: functions.php:15
+msgid "Top Nav Menu"
+msgstr "Верхнее меню навигации"
+
+#: functions.php:16
+msgid "Footer Custom Links"
+msgstr "Пользовательские ссылки в нижнем колонтитуле"
+
+#: functions.php:20
+msgid "Primary Sidebar"
+msgstr "Первая боковая панель"
+
+#: functions.php:29 template/options.php:198 template/options.php:211
+msgid "Secondary Sidebar"
+msgstr "Вторая боковая панель"
+
+#: functions.php:68
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:81
+msgid "You are here"
+msgstr "Вы здесь"
+
+#: functions.php:122
+msgid "Posts with tag [ <strong> %s </strong> ] "
+msgstr "Записей с меткой [ <strong> %s </strong> ] "
+
+#: functions.php:127
+msgid "Search result for [ <strong> %s </strong> ] "
+msgstr "Результаты поиска для [ <strong> %s </strong> ] "
+
+#: functions.php:138
+msgid "Posts from author [ <strong> %s </strong> ] "
+msgstr "Записей от автора [ <strong> %s </strong> ] "
+
+#: functions.php:143
+msgid "Y/m/d"
+msgstr "Г/м/д"
+
+#: functions.php:145
+msgid "Daily archives for <strong> %s </strong>"
+msgstr "Дневные архивы для <strong> %s </strong>"
+
+#: functions.php:150
+msgid "Y/m"
+msgstr "Г/м"
+
+#: functions.php:152
+msgid "Monthly archives for <strong> %s </strong>"
+msgstr "Месячные архивы для <strong> %s </strong>"
+
+#: functions.php:157
+msgid "Y"
+msgstr "Г"
+
+#: functions.php:159
+msgid "Yearly archives for <strong> %s </strong>"
+msgstr "Годовые архивы для <strong> %s </strong>"
+
+#: functions.php:173
+msgid "Untitled Post"
+msgstr "Запись без имени"
+
+#: functions.php:245 template/entry-meta-primary-page.php:14
+#: template/entry-meta-primary.php:13
+msgid "1 Comment"
+msgid_plural "%s Comments"
+msgstr[0] "1 Комментарий"
+msgstr[1] "%s Комментариев"
+
+#: functions.php:273
+msgid "Search Widget From zAlive"
+msgstr "Виджет поиска zAlive"
+
+#: functions.php:274
+msgid "Search(zAlive)"
+msgstr "Поиск(zAlive)"
+
+#: functions.php:283 template/header.php:40
+msgid "Type and search..."
+msgstr "Введите строку поиска..."
+
+#: functions.php:283 functions.php:292 template/header.php:41
+msgid "Search"
+msgstr "Поиск"
+
+#: functions.php:296 functions.php:338 functions.php:385 functions.php:426
+#: functions.php:592
+msgid "Title"
+msgstr "Название"
+
+#: functions.php:306
+msgid "Recent Comments Widget From zAlive"
+msgstr "Виджет последних комментариев от zAlive"
+
+#: functions.php:307
+msgid "Recent Comments(zAlive)"
+msgstr "Последние комментарии (zAlive)"
+
+#: functions.php:331 sidebar.php:13
+msgid "Recent Comments"
+msgstr "Последние комментарии"
+
+#: functions.php:341
+msgid "Comments Count"
+msgstr "Количество комментариев"
+
+#: functions.php:344
+msgid "Avatar Size"
+msgstr "Размер аватара"
+
+#: functions.php:347
+msgid "Maximum Count Of Comment Characters"
+msgstr "Максимальное количество символов комментария"
+
+#: functions.php:357
+msgid "Most Commented Posts Widget From zAlive"
+msgstr "Виджет самых комментируемых записей от zAlive"
+
+#: functions.php:358
+msgid "Most Commented Posts(zAlive)"
+msgstr "Самые комментируемые записи (zAlive)"
+
+#: functions.php:380
+msgid "Most Commented Posts"
+msgstr "Самые комментируемые записи"
+
+#: functions.php:388 functions.php:429
+msgid "Post Count"
+msgstr "Количество записей"
+
+#: functions.php:398
+msgid "Random Posts Widget From zAlive"
+msgstr "Виджет случайных записей от zAlive"
+
+#: functions.php:399
+msgid "Random Posts(zAlive)"
+msgstr "Случайные записи (zAlive)"
+
+#: functions.php:421 functions.php:472
+msgid "Random Posts"
+msgstr "Случайные записи"
+
+#: functions.php:439
+msgid "Most Commented & Random Posts Widget From zAlive (with tab switch )"
+msgstr ""
+"Виджет Самые комментируемые & Случайные записи от zAlive (с переключением "
+"между закладками)"
+
+#: functions.php:440
+msgid "Most Commented & Random Posts(zAlive)"
+msgstr "Самые комментируемые & Случайные записи(zAlive)"
+
+#: functions.php:472
+msgctxt "Most Commented Posts"
+msgid "Most Commented"
+msgstr "Самые комментируемые"
+
+#: functions.php:479
+msgid "Title(Most Commented Posts)"
+msgstr "Название (Самые комментируемые записи)"
+
+#: functions.php:482
+msgid "Count(Most Commented Posts)"
+msgstr "Количество (Самые комментируемые записи)"
+
+#: functions.php:485
+msgid "Title(Random Posts)"
+msgstr "Название (Случайные записи)"
+
+#: functions.php:488
+msgid "Count(Random Posts)"
+msgstr "Количество (Случайные записи)"
+
+#: functions.php:498
+msgid "Social Links Widget From zAlive"
+msgstr "Виджет социальных ссылок от zAlive"
+
+#: functions.php:499
+msgid "Social Links(zAlive)"
+msgstr "Социальные ссылки (zAlive)"
+
+#: functions.php:504 functions.php:595
+msgid "Contact Email"
+msgstr "Email"
+
+#: functions.php:505 functions.php:598
+msgid "RSS"
+msgstr "RSS"
+
+#: functions.php:506 functions.php:601
+msgid "Twitter"
+msgstr "Twitter"
+
+#: functions.php:507 functions.php:604
+msgid "Facebook"
+msgstr "Facebook"
+
+#: functions.php:508 functions.php:607
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: functions.php:509 functions.php:610
+msgid "YouTube"
+msgstr "YouTube"
+
+#: functions.php:510 functions.php:613
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: functions.php:511 functions.php:616
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: functions.php:512 functions.php:619
+msgid "Myspace"
+msgstr "Myspace"
+
+#: functions.php:513 functions.php:622
+msgid "deviantART"
+msgstr "deviantART"
+
+#: functions.php:514 functions.php:625
+msgid "Flickr"
+msgstr "Flickr"
+
+#: functions.php:515 functions.php:628
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: functions.php:516 functions.php:631
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: functions.php:517 functions.php:634
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: functions.php:518 functions.php:637
+msgid "Orkut"
+msgstr "Orkut"
+
+#: functions.php:519 functions.php:640
+msgid "VKontakte"
+msgstr "Вконтакте"
+
+#: functions.php:520 functions.php:643
+msgid "Weibo"
+msgstr "Weibo"
+
+#: functions.php:717
+msgid "Go Top"
+msgstr "Наверх"
+
+#: functions.php:737
+msgid "Pingback: "
+msgstr "Обратная ссылка:"
+
+#. translators: 1: date, 2: time
+#: functions.php:744 functions.php:772
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:747
+msgid "(Edit)"
+msgstr "(Править)"
+
+#: functions.php:767
+msgid "Post Author"
+msgstr "Автор записи"
+
+#: functions.php:778
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки"
+
+#: functions.php:787
+msgid "Edit"
+msgstr "Править"
+
+#: functions.php:788
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:952 template/options.php:8
+msgid "zAlive Theme Settings"
+msgstr "Настройки темы zAlive"
+
+#: functions.php:952
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: functions.php:965
+msgid "All settings will be set to default.Do you want to restore anyway ?"
+msgstr "Все настройки будут сброшены к начальным. Хотите продолжить?"
+
+#: page.php:19 template/content.php:13 template/page-full-width.php:17
+msgid "Pages: "
+msgstr "Страниц:"
+
+#: reply.php:12
+msgid "Leave a Reply"
+msgstr "Оставить ответ"
+
+#: reply.php:13
+msgid "Leave a Reply to %s"
+msgstr "Оставить ответ %s"
+
+#: reply.php:14
+msgid "Cancle Reply"
+msgstr "Отменить ответ"
+
+#: reply.php:15
+msgctxt "submit comment"
+msgid "Post Comment"
+msgstr "Отправить комментарий"
+
+#: reply.php:17
+msgctxt "noun"
+msgid "Comment"
+msgstr "Комментарий"
+
+#: reply.php:23
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Вы должны быть <a href=\"%s\">авторизованы</a> чтобы размещать комментарии."
+
+#: reply.php:29
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы вошли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выполнить "
+"выход этой учетной записи\">Выполнить выход?</a>"
+
+#: reply.php:43
+msgid "Name"
+msgstr "Имя"
+
+#: reply.php:43 reply.php:48
+msgid "required"
+msgstr "требуется"
+
+#: reply.php:48
+msgid "Email"
+msgstr "Email"
+
+#: reply.php:54
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: template/content-none.php:8
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: template/content-none.php:11
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Приступим...</a>."
+
+#: template/content-none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Извините, но по вашему запросу ничего не найдено. Попробуйте выполнить новый "
+"запрос с использованием других слов."
+
+#: template/content-none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вам нужно. Возможно, поиск может помочь."
+
+#: template/entry-meta-primary-page.php:9 template/entry-meta-primary.php:9
+msgid "Author: "
+msgstr "Автор:"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "No comment yet"
+msgstr "Комментариев нет"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "Comments Off"
+msgstr "Комментарии отключены"
+
+#: template/entry-meta-secondary.php:8
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: template/entry-meta-secondary.php:12
+msgid "Tags"
+msgstr "Метки"
+
+#: template/entry-meta-tertiary.php:9
+msgid "Short URL for this post : "
+msgstr "Короткая ссылка:"
+
+#: template/entry-meta-tertiary.php:11
+msgid "URL for this post : "
+msgstr "Ссылка на эту запись:"
+
+#: template/options.php:10
+msgid "All settings saved."
+msgstr "Все настройки сохранены."
+
+#: template/options.php:18
+msgid "General"
+msgstr "Основное"
+
+#: template/options.php:21
+msgid "Open Comment Author Link In New Window"
+msgstr "Открыть ссылку на автора комментария в новом окне"
+
+#: template/options.php:22 template/options.php:26 template/options.php:30
+#: template/options.php:50 template/options.php:64 template/options.php:68
+#: template/options.php:72 template/options.php:76 template/options.php:80
+#: template/options.php:90 template/options.php:204
+msgid "Enable"
+msgstr "Включить"
+
+#: template/options.php:25
+msgid "Enable zAlive WP-PageNavi Style"
+msgstr "Включить стиль zAlive WP-PageNavi"
+
+#: template/options.php:29
+msgid "Automatic Excerpt In List Page"
+msgstr "Авто-выдержка на странице"
+
+#: template/options.php:33
+msgid "Automatic Excerpt Length(in word)"
+msgstr "Длина авто-выдержки (в слове)"
+
+#: template/options.php:37
+msgid "Text for \"Read More\""
+msgstr "Текст \"Читать далее\""
+
+#: template/options.php:41
+msgid "Advertisement Code(in content page)"
+msgstr "Код рекламного объявления (в содержимом страницы)"
+
+#: template/options.php:46
+msgid "Layout"
+msgstr "Макет"
+
+#: template/options.php:49
+msgid "Hide Posts List And Primary Sidebar In Homepage"
+msgstr "Скрыть записи и первую боковую панель на домашней странице"
+
+#: template/options.php:53
+msgid "Primary Sidebar Layout"
+msgstr "Макет боковой панели"
+
+#: template/options.php:56
+msgid "Shown On The Right"
+msgstr "Справа"
+
+#: template/options.php:57
+msgid "Shown On The Left"
+msgstr "Слева"
+
+#: template/options.php:58
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: template/options.php:63
+msgid "Show Tagline Directly"
+msgstr "Постоянно отображать слоган"
+
+#: template/options.php:67
+msgid "Header Searchbox"
+msgstr "Диалог поиска в заголовке"
+
+#: template/options.php:71
+msgid "Breadcrumb(Path) Navigation"
+msgstr "Навигация Breadcrumb(Path)"
+
+#: template/options.php:75
+msgid "Show \"GoTop\" When Scrolling"
+msgstr "Отображать \"Наверх\" при прокручивании"
+
+#: template/options.php:79
+msgid "Show Post URL In Post Page"
+msgstr "Показывать URL записи на странице записи"
+
+#: template/options.php:84
+msgid "Slider"
+msgstr "Slider"
+
+#: template/options.php:87 template/options.php:201
+msgid "Enable Or Not"
+msgstr "Включить или нет"
+
+#: template/options.php:91 template/options.php:205
+msgid "Enable In Home Page"
+msgstr "Включить на домашней странице"
+
+#: template/options.php:92 template/options.php:206
+msgid "Disable"
+msgstr "Выключить"
+
+#: template/options.php:97
+msgid "Pause Time(in millisecond)"
+msgstr "Паузы (в миллисекундах)"
+
+#: template/options.php:101 template/options.php:125 template/options.php:149
+#: template/options.php:173
+msgid "Slider%s Image"
+msgstr "Slider%s Изображение"
+
+#: template/options.php:109 template/options.php:133 template/options.php:157
+#: template/options.php:181
+msgid "Select Image"
+msgstr "Выбор изображения"
+
+#: template/options.php:109 template/options.php:133 template/options.php:157
+#: template/options.php:181
+msgid "or enter the image URL here"
+msgstr "или введите URL изображения"
+
+#: template/options.php:113 template/options.php:137 template/options.php:161
+#: template/options.php:185
+msgid "Slider%s Title"
+msgstr "Slider%s Название"
+
+#: template/options.php:117 template/options.php:141 template/options.php:165
+#: template/options.php:189
+msgid "Slider%s Content"
+msgstr "Slider%s Содержимое"
+
+#: template/options.php:121 template/options.php:145 template/options.php:169
+#: template/options.php:193
+msgid "Slider%s Link URL"
+msgstr "Slider%s URL-ссылка"
+
+#: template/options.php:212
+msgid ""
+"Set in : <code>&nbsp;WordPress Admin > Appearance > Widgets&nbsp;</code>"
+msgstr ""
+"Установить в : <code>&nbsp;WordPress Admin > Appearance > Widgets&nbsp;</"
+"code>"
+
+#: template/options.php:216
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: template/options.php:219
+msgid "Copyright Text"
+msgstr "Текст об авторских правах"
+
+#: template/options.php:223
+msgid "Custom Links"
+msgstr "Пользовательские ссылки"
+
+#: template/options.php:224
+msgid "Set in : <code>&nbsp;WordPress Admin > Appearance > Menus&nbsp;</code>"
+msgstr ""
+"Установить в : <code>&nbsp;WordPress Admin > Appearance > Menus&nbsp;</code>"
+
+#: template/options.php:228
+msgid "Custom CSS Styles And Scripts"
+msgstr "Пользовательские стили CSS и скрипты"
+
+#: template/options.php:231
+msgid "Custom CSS Style"
+msgstr "Пользовательский стиль CSS"
+
+#: template/options.php:235
+msgid "Header Custom Scripts"
+msgstr "Пользовательские скрипты в шапке"
+
+#: template/options.php:239
+msgid "Footer Custom Scripts"
+msgstr "Пользовательские скрипты в нижнем колонтитуле"
+
+#: template/options.php:244
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: template/options.php:245
+msgid "Restore Defaults"
+msgstr "Восстановить значения по умолчанию"
+
+#. Theme Name of the plugin/theme
+msgid "zAlive"
+msgstr "zAlive"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.zenoven.com/themes/zAlive"
+msgstr "http://www.zenoven.com/themes/zAlive"
+
+#. Description of the plugin/theme
+msgid ""
+"zAlive is a responsive two columns theme with green and black color. With "
+"rich options you can custom the slider, excerpt, advertisement code,primary "
+"sidebar layout, copyright, nav menu, CSS style, scripts and more."
+msgstr ""
+"zAlive это двухколоночная тема в тёмно-зелёной цветовой гамме. С "
+"возможностью изменений опций slider, excerpt, advertisement code,primary "
+"sidebar layout, copyright, nav menu, CSS style, scripts и т.д."
+
+#. Author of the plugin/theme
+msgid "zenoven"
+msgstr "zenoven"
+
+#. Author URI of the plugin/theme
+msgid "http://www.zenoven.com/"
+msgstr "http://www.zenoven.com/"
+
+#. Template Name of the page template for Archive
+msgid "Archive"
+msgstr "Архив"
+
+#. Template Name of the page template for Category
+msgid "Category"
+msgstr "Категории"
+
+#. Template Name of the page template for Full Width
+msgid "Full Width"
+msgstr "Во всю ширину"
+
+#. Template Name of the page template for Links
+msgid "Links"
+msgstr "Ссылки"
+
+#~ msgid "[Read More...]"
+#~ msgstr "Читать далее..."

@@ -1,0 +1,7 @@
+.wp-pagenavi{margin:0 20px 15px;float:right;}
+.wp-pagenavi span.pages{color:#878686;padding:2px 7px 2px 22px;margin:5px 10px 5px 0; background:url(../img/sp.png) 0 -128px no-repeat;}
+.wp-pagenavi a,.wp-pagenavi span.extend,.wp-pagenavi span.current{display:inline-block;padding:4px 10px;margin:5px 10px 5px 0; background: #eee; }
+.wp-pagenavi a:hover,.wp-pagenavi span.current{background:#73a53e;color:#fff; text-decoration:none}
+@media (max-width: 979px){
+  .wp-pagenavi{margin-left: 10px;margin-right: 0px;}
+}
