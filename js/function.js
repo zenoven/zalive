@@ -2,13 +2,6 @@
   $(function(){
     //object zAlive_i18n (contains all text string for translation) is defined in wp_localize_script(in functions.php )
 
-    //top nav bar menu
-    $('.navbar .nav').show(0);
-    $('#header .nav>li:has(ul)').each(function(){
-      $(this).addClass('dropdown').children('a').addClass('dropdown-toggle').attr('data-toggle','dropdown').attr('data-hover','dropdown').attr('data-delay','100').attr('data-close-others','false').append(' <b class="caret"></b>');
-      $(this).children('ul').addClass('dropdown-menu');
-    });
-    
     //show site tagline(description) if it's hidden by option 
     if( $('.tagline-hidden').length != 0 ){
       $('#header .brand').hover(function(){
