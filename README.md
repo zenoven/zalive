@@ -49,4 +49,4 @@ The exceptions to this license are as follows:
 
 
 ## Changelog
-See changelog.md
+See [changelog.md](changelog.md)
