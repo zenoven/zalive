@@ -2,7 +2,7 @@
   $(function(){
     //object zAlive_i18n (contains all text string for translation) is defined in wp_localize_script(in functions.php )
 
-    // top nav dropdown menu
+    // top nav
     var menuItems = $('.menu-item-has-children'),
         isMobile = $('body').hasClass('is-mobile');
     if(isMobile){
@@ -13,14 +13,29 @@
         $('#searchbox').toggleClass('active');
         if($(this).hasClass('active')){
           $('#s').focus();
+          if($('.navbar .nav').hasClass('active')){
+            $('.mobile-mark .mobile-item-nav').trigger('click');
+          }
         }
       });
       $('.mobile-mark .mobile-item-nav').on('click',function(){
         $('.navbar .nav').toggleClass('active');
+        menuItems.removeClass('active');
+        if($(this).hasClass('active') && $('#searchbox').hasClass('active') ){
+          $('.mobile-mark .mobile-item-search').trigger('click');
+        }
       });
-      // todo： 点击空白隐藏搜索框及菜单，点击菜单按钮隐藏搜索框，点击搜索按钮隐藏菜单，二级菜单显示与隐藏，二级菜单父元素链接点击问题
+      menuItems.each(function(){
+        var _this = $(this); 
+            aTag = _this.children('a');
+        aTag.on('click',function(e){
+          if(!_this.hasClass('active')){
+            e.preventDefault();
+            _this.toggleClass('active');
+          }
+        });
+      });
     }else{
-      // alert('not mobile');
       menuItems.each(function(i){
         var _this = $(this);
         _this.hover(function(){
