@@ -1,3 +1,8 @@
+### 1.3 ###
+* rewrite top nav bar with better performance and friendly interaction(on mobile device).
+* first level menu item with sub menu in top nav now is clickable.
+* set sidebar comment widget width automatically with CSS(replace the old JS solution)
+
 ### 1.2.12 ###
 * add French translation(thanks to Geek01).
 
