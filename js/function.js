@@ -2,6 +2,33 @@
   $(function(){
     //object zAlive_i18n (contains all text string for translation) is defined in wp_localize_script(in functions.php )
 
+    // top nav dropdown menu
+    var menuItems = $('.menu-item-has-children'),
+        isMobile = $('body').hasClass('is-mobile');
+    if(isMobile){
+      $('.mobile-mark .mobile-item').on('click',function(){
+        $(this).toggleClass('active');
+      });
+      $('.mobile-mark .mobile-item-search').on('click',function(){
+        $('#searchbox').toggleClass('active');
+        if($(this).hasClass('active')){
+          $('#s').focus();
+        }
+      });
+      $('.mobile-mark .mobile-item-nav').on('click',function(){
+        $('.navbar .nav').toggleClass('active');
+      });
+      // todo： 点击空白隐藏搜索框及菜单，点击菜单按钮隐藏搜索框，点击搜索按钮隐藏菜单，二级菜单显示与隐藏，二级菜单父元素链接点击问题
+    }else{
+      // alert('not mobile');
+      menuItems.each(function(i){
+        var _this = $(this);
+        _this.hover(function(){
+          _this.toggleClass('active');
+        });
+      });
+    }
+    
     //show site tagline(description) if it's hidden by option 
     if( $('.tagline-hidden').length != 0 ){
       $('#header .brand').hover(function(){
@@ -10,7 +37,6 @@
         $('.tagline-hidden').animate({'top':'-=35'});
       });
     }
-    
     
     //slider
     if($('#zSlider').length != 0){

@@ -37,7 +37,7 @@ zAlive is a responsive two columns WordPress theme with green and black color. W
 5. If everthing goes fine then click the 'Activate' link after installation.
 
 ### Install with unzipped files
-1. Unzip all files into your mywebsite.com/wp-content/themes/ directory,like: mywebsite.com/wp-content/themes/zAlive/
+1. Unzip all files into your mywebsite.com/wp-content/themes/ directory,like: mywebsite.com/wp-content/themes/zalive/
 2. Log into your site admin and go to 'Appearance > Themes'
 3. Find the zAlive theme listing on this page and click 'Activate'
 

@@ -48,6 +48,15 @@
   }
   add_action ('after_setup_theme', 'zAlive_theme_setup');  
   
+  function zAlive_add_mobile_device_class($classes) {
+    if(wp_is_mobile()){
+      $classes[] = 'is-mobile';
+    }
+    return $classes;
+  }
+  // add 'is-mobile' class to body
+  add_filter('body_class', 'zAlive_add_mobile_device_class');
+
   //rewrite title(Adopted from Twenty Twelve)
   function zAlive_wp_title( $title, $sep ) {
     global $paged, $page;
