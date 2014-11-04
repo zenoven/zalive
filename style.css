@@ -14,6 +14,7 @@ Text Domain: zAlive
 /* Reset styles defined by browser or bootstrap */
 body{background:#2a2a2a;-ms-word-wrap: break-word;word-wrap: break-word;}
 h1,h2,h3,h4,h5,h6,a,a:hover{color:#73a53e;}
+h1,h2,h3,h4,h5,h6{font-family: "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";}
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input,.input-append .add-on:last-child,.input-append .btn:last-child,.input-append .btn-group:last-child>.dropdown-toggle,.breadcrumb,.alert,.nav-tabs>li>a,.btn,.dropdown-menu,.navbar-inner,pre,code{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
 blockquote p{font-size:inherit;}
 video,embed,audio,iframe,object{max-width:100%;}
@@ -356,11 +357,9 @@ body.single .entry-title,body.page .entry-title,.result-nothing-found .entry-tit
   #sidebar{width:315px;margin-right:-315px;}
   .content-two-columns-sidebar-left{width:315px;margin-right:664px;}
   .content-two-columns-sidebar-left #main{width:665px;}
-  
+  #footer>.container{width:100%;}
 }
 @media (max-width: 979px){
-  
-  
   .content-two-columns{width:100%;margin-right:0;border-right:0;}
   .container-sidebar-left #main{width:100%;margin-right:0;background:#fff;}
   .widget_links ul>li,.widget_archive ul>li,.widget_meta ul>li{width:100%;}
