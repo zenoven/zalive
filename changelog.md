@@ -1,3 +1,7 @@
+### 1.3.1 ###
+* fix header dropdown menu bug when no menu is set up in WordPress Admin > Appearance > Menus( by changing wp_list_categories parameter depth to 1)
+* better font-family for heading tags
+
 ### 1.3 ###
 * rewrite top nav bar with better performance and friendly interaction(on mobile device).
 * first level menu item with sub menu in top nav now is clickable.
