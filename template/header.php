@@ -37,7 +37,7 @@
             if ( has_nav_menu( 'top_nav_menu' ) ) {
               wp_nav_menu( array('theme_location'  => 'top_nav_menu', 'container' => '','depth' => 2 ,'items_wrap' => '%3$s' ) ); 
             } else {
-              wp_list_categories('depth=2&title_li=0&orderby=id&show_count=0&number=6');
+              wp_list_categories('depth=1&title_li=0&orderby=id&show_count=0&number=6');
             }           
           ?>
         </ul>
