@@ -47,6 +47,14 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 The exceptions to this license are as follows:
 * Bootstrap by Twitter and the Glyphicon set are licensed under the [GPL-compatible Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
+### The following four featured images are from pixaby and under [CC0 Public Domain](http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+* [Desert Heat Sand Privacy Freedom Dry Hot Dunes](http://pixabay.com/en/desert-heat-sand-privacy-freedom-169771/)
+
+* [Stones Rocks Pebbles](http://pixabay.com/en/stones-rocks-pebbles-167089/)
+
+* [Road Road Marking Street Miles Travel](http://pixabay.com/en/road-road-marking-street-miles-166543/)
+
+* [Weimaraner Beach Thailand Dog](http://pixabay.com/en/weimaraner-beach-thailand-dog-143753/)
 
 ## Changelog
 See [changelog.md](changelog.md)

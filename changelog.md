@@ -1,3 +1,6 @@
+### 1.3.2 ###
+* update license info
+
 ### 1.3.1 ###
 * fix header dropdown menu bug when no menu is set up in WordPress Admin > Appearance > Menus( by changing wp_list_categories parameter depth to 1)
 * better font-family for heading tags
