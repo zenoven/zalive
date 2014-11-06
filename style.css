@@ -14,7 +14,7 @@ Text Domain: zAlive
 /* Reset styles defined by browser or bootstrap */
 body{background:#2a2a2a;-ms-word-wrap: break-word;word-wrap: break-word;}
 h1,h2,h3,h4,h5,h6,a,a:hover{color:#73a53e;}
-h1,h2,h3,h4,h5,h6{font-family: "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";}
+h1,h2,h3,h4,h5,h6,#zSlider strong{font-family: "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";}
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input,.input-append .add-on:last-child,.input-append .btn:last-child,.input-append .btn-group:last-child>.dropdown-toggle,.breadcrumb,.alert,.nav-tabs>li>a,.btn,.dropdown-menu,.navbar-inner,pre,code{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
 blockquote p{font-size:inherit;}
 video,embed,audio,iframe,object{max-width:100%;}
