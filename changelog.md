@@ -1,3 +1,7 @@
+### 1.3.3 ###
+* add editor style support
+* better style for default table in post content (remove the default 100% width, if you want it 100% percent just add class 'full-width' to the table )
+
 ### 1.3.2 ###
 * update license info
 
