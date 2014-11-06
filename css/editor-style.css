@@ -1,5 +1,5 @@
 /* Reset styles defined by browser or bootstrap from style.css */
-body{-ms-word-wrap: break-word;word-wrap: break-word;padding: 10px; background: #fff; color:#333;font-size:14px;}
+body{-ms-word-wrap: break-word;word-wrap: break-word;margin: 10px; background: #fff; color:#333;font-size:14px;}
 h1,h2,h3,h4,h5,h6,a,a:hover{color:#73a53e;}
 h1,h2,h3,h4,h5,h6{font-family: "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";}
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input,.input-append .add-on:last-child,.input-append .btn:last-child,.input-append .btn-group:last-child>.dropdown-toggle,.breadcrumb,.alert,.nav-tabs>li>a,.btn,.dropdown-menu,.navbar-inner,pre,code{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
@@ -43,7 +43,7 @@ img.aligncenter {margin-top: 12px;margin-top: 0.857142857rem;margin-bottom: 12px
 /* WordPress default style End*/
 
 /* main Begin */
-p{margin: 0 0 18px;margin: 0 0 1.2855rem;line-height: 1.714285714;}
+p,blockquote p{margin: 0 0 18px;margin: 0 0 1.2855rem;line-height: 1.714285714;}
 blockquote > :last-child,.comment-content blockquote > :last-child{margin-bottom:0;}
 h1,h2,h3,h4,h5,h6{color:#555;padding-bottom:5px;border-bottom:1px dashed #e8e8e8;line-height:1.5em;}
 ul,ol,dl{margin-top:9px;margin-top:0.64275rem;margin-bottom:18px;margin-bottom:1.2855rem;}
