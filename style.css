@@ -52,9 +52,12 @@ input[type="reset"],input[type="submit"],input[type="button"],button{padding:3px
 
 /* WordPress default style Begin*/
 /* table */
-.entry-content table, .comment-content table {border-bottom: 1px solid #ededed;color: #757575;font-size: 12px;font-size: 0.857142857rem;line-height: 2;margin: 0 0 24px;margin: 0 0 1.714285714rem;width: 100%;}
-.entry-content table caption,.comment-content table caption {	font-size: 16px;font-size: 1.142857143rem;margin: 24px 0;margin: 1.714285714rem 0;}
-.entry-content td, .comment-content td {border-top: 1px solid #ededed;padding: 6px 10px 6px 0;}
+.entry-content table, .comment-content table {border-bottom: 1px solid #ededed;color: #757575;font-size: 12px;font-size: 0.857142857rem;line-height: 2;margin: 0 0 24px;margin: 0 0 1.714285714rem;}
+table.full-width{width: 100%;}
+.entry-content table caption,.comment-content table caption {   font-size: 16px;font-size: 1.142857143rem;margin: 24px 0;margin: 1.714285714rem 0;}
+.entry-content th,.entry-content td, .comment-content th,.comment-content td {border: 1px solid #ededed;padding: 6px 10px;}
+.entry-content thead th,.comment-content thead th{background: #f7f7f7;}
+.entry-content tbody th,.comment-content tbody th{background: #fcfcfc;}
 /* Images */
 .alignleft {	float: left;}
 .alignright {float: right;}

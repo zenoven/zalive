@@ -45,6 +45,8 @@
       'admin-preview-callback' => '',
       ) 
     );
+    add_editor_style( 'css/bootstrap.min.css' );
+    add_editor_style( 'css/editor-style.css' );
   }
   add_action ('after_setup_theme', 'zAlive_theme_setup');  
   
