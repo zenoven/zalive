@@ -97,8 +97,8 @@ img.aligncenter {margin-top: 12px;margin-top: 0.857142857rem;margin-bottom: 12px
 .navbar .menu-item-has-children.active>ul{display: block;}
 .navbar .menu-item-has-children>ul a{color:#fff;line-height:30px;display: block;padding: 3px 15px;white-space: nowrap;text-decoration: none;}
 .navbar .menu-item-has-children>ul a:hover{color:#73a53e;background:#e7e7e7;}
-.is-mobile .navbar .nav{height: 0;float: none;padding: 0;max-height:0;overflow: hidden;}
-.is-mobile .navbar .nav.active{height: auto;display: block;max-height:3000px;-webkit-transition: all .5s ease-in;-moz-transition: all .5s ease-in;transition: all .5s ease-in;}
+.is-mobile .navbar .nav{display: none;float: none;padding: 0;overflow: hidden;-webkit-transition: all .15s ease-in;-moz-transition: all .15s ease-in;transition: all .15s ease-in;}
+.is-mobile .navbar .nav.triggered{display: block;}
 .is-mobile .navbar .nav>li{float: none;width: 100%;}
 .is-mobile .navbar .nav>li>a{padding: 10px;}
 .is-mobile .navbar .nav a{border-bottom: 1px solid #ddd;}
@@ -120,8 +120,8 @@ img.aligncenter {margin-top: 12px;margin-top: 0.857142857rem;margin-bottom: 12px
 .mobile-item-search{background-position: 0 -336px;}
 .mobile-item-search.active{background-position: 0 -384px;}
 .is-mobile #searchbox,.is-mobile #searchbox input,.is-mobile #searchbox button{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.is-mobile #searchbox{display: block;height:0;padding:0;overflow: hidden;margin: 0;float: none;width: 100%;}
-.is-mobile #searchbox.active{height:50px;padding: 10px;-webkit-transition: all .15s ease-in;-moz-transition: all .15s ease-in;transition: all .15s ease-in;}
+.is-mobile #searchbox{display: block;height:0;padding:0;overflow: hidden;margin: 0;float: none;width: 100%;-webkit-transition: all .15s ease-in;-moz-transition: all .15s ease-in;transition: all .15s ease-in;}
+.is-mobile #searchbox.active{height:50px;padding: 10px;}
 .is-mobile #searchbox input,.is-mobile #searchbox button{display: none;}
 .is-mobile #searchbox input{width: 80%;height: 30px;} 
 .is-mobile #searchbox button{width: 20%;} 
