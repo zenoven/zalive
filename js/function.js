@@ -12,7 +12,7 @@
           navHeight_initial,
           searchboxHeight = searchbox.outerHeight(),
           searchboxPadding = 10,
-          translatElements = $('body').children(':not(#header,#wpadminbar)') ;
+          translateElements = $('body').children(':not(#header,#wpadminbar,script,style)') ;
       navHeight_initial = navHeight = nav.height();
       nav.height(0).addClass('triggered');
       searchbox.css({'height':0,'padding':0});
@@ -26,11 +26,11 @@
             $('.mobile-mark .mobile-item-nav').trigger('click');
           }
           searchbox.transition({height:searchboxHeight,padding:searchboxPadding},200,'out');
-          translatElements.transition({y:searchboxHeight + searchboxPadding*2 },200,'out');
+          translateElements.transition({y:searchboxHeight + searchboxPadding*2 },200,'out');
           $('#s').focus();
         }else{
           searchbox.transition({height:0,padding:0},200,'out');
-          translatElements.transition({y:0 },200,'out');
+          translateElements.transition({y:0 },200,'out');
         }
       });
       $('.mobile-mark .mobile-item-nav').on('click',function(){
@@ -41,11 +41,11 @@
             $('.mobile-mark .mobile-item-search').trigger('click');
           }
           nav.transition({height:navHeight_initial},200,'out');
-          translatElements.transition({y:navHeight_initial},200,'out');
+          translateElements.transition({y:navHeight_initial},200,'out');
           navHeight = navHeight_initial;
         }else{
           nav.transition({height:0},200,'out');
-          translatElements.transition({y:0},200,'out');
+          translateElements.transition({y:0},200,'out');
         }
       });
       menuItems.each(function(){
@@ -55,7 +55,7 @@
           if(!_this.hasClass('active')){
             navHeight += _this.children('.sub-menu').height();
             nav.transition({height:navHeight},200,'out');
-            translatElements.transition({y:navHeight},200);
+            translateElements.transition({y:navHeight},200);
             e.preventDefault();
             _this.toggleClass('active');
           }
