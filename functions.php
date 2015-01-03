@@ -721,8 +721,11 @@
     //scripts
     wp_enqueue_script( 'jquery', false, array(), false, true );
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '2.3.2', true );
-    if( $zAlive_options['show_gotop'] == true ){
+    if( $zAlive_options['show_gotop'] == true && !wp_is_mobile() ){
       wp_enqueue_script( 'scrollUp', get_template_directory_uri() . '/js/jquery.scrollUp.min.js', array('jquery'), '1.1.0', true );
+    }
+    if( wp_is_mobile() ){
+      wp_enqueue_script( 'transit', get_template_directory_uri() . '/js/jquery.transit.min.js', array('jquery'), '1.1.0', true );
     }
     wp_enqueue_script( 'function', get_template_directory_uri() . '/js/function.js', array('jquery','bootstrap'), false, true ); 
     wp_localize_script( 'function', 'zAlive_i18n', array ('gotop' => __('Go Top', 'zAlive') ,'slider_pause_time' => $zAlive_options['slider_pause_time']) );

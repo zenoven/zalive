@@ -6,30 +6,46 @@
     var menuItems = $('.menu-item-has-children'),
         isMobile = $('body').hasClass('is-mobile');
     if(isMobile){
-      var navHeight,navHeight_initial ;
-      navHeight_initial = navHeight = $('.navbar .nav').height();
-      $('.navbar .nav').height(0).addClass('triggered');
+      var nav = $('.navbar .nav'),
+          searchbox = $('#searchbox'),
+          navHeight,
+          navHeight_initial,
+          searchboxHeight = searchbox.outerHeight(),
+          searchboxPadding = 10,
+          translatElements = $('body').children(':not(#header,#wpadminbar)') ;
+      navHeight_initial = navHeight = nav.height();
+      nav.height(0).addClass('triggered');
+      searchbox.css({'height':0,'padding':0});
       $('.mobile-mark .mobile-item').on('click',function(){
         $(this).toggleClass('active');
       });
       $('.mobile-mark .mobile-item-search').on('click',function(){
-        $('#searchbox').toggleClass('active');
+        searchbox.toggleClass('active');
         if($(this).hasClass('active')){
-          $('#s').focus();
-          if($('.navbar .nav').hasClass('active')){
+          if(nav.hasClass('active')){
             $('.mobile-mark .mobile-item-nav').trigger('click');
           }
+          searchbox.transition({height:searchboxHeight,padding:searchboxPadding},200,'out');
+          translatElements.transition({y:searchboxHeight + searchboxPadding*2 },200,'out');
+          $('#s').focus();
+        }else{
+          searchbox.transition({height:0,padding:0},200,'out');
+          translatElements.transition({y:0 },200,'out');
         }
       });
       $('.mobile-mark .mobile-item-nav').on('click',function(){
-        $('.navbar .nav').toggleClass('active').height($('.navbar .nav').hasClass('active')?navHeight:0);
+        nav.toggleClass('active');
         menuItems.removeClass('active');
-        if($(this).hasClass('active')){
-          navHeight = navHeight_initial;
-          $('.navbar .nav').height(navHeight);
-          if($('#searchbox').hasClass('active')){
+        if(nav.hasClass('active')){
+          if(searchbox.hasClass('active')){
             $('.mobile-mark .mobile-item-search').trigger('click');
           }
+          nav.transition({height:navHeight_initial},200,'out');
+          translatElements.transition({y:navHeight_initial},200,'out');
+          navHeight = navHeight_initial;
+        }else{
+          nav.transition({height:0},200,'out');
+          translatElements.transition({y:0},200,'out');
         }
       });
       menuItems.each(function(){
@@ -38,7 +54,8 @@
         aTag.on('click',function(e){
           if(!_this.hasClass('active')){
             navHeight += _this.children('.sub-menu').height();
-            $('.navbar .nav').height(navHeight);
+            nav.transition({height:navHeight},200,'out');
+            translatElements.transition({y:navHeight},200);
             e.preventDefault();
             _this.toggleClass('active');
           }
