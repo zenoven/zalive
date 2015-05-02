@@ -16,14 +16,14 @@
       navHeight_initial = navHeight = nav.height();
       nav.height(0).addClass('triggered');
       searchbox.css({'height':0,'padding':0});
-      $('.mobile-mark .mobile-item').on('click',function(){
+      $('.mobile-mark .mobile-item').on('touchend',function(){
         $(this).toggleClass('active');
       });
-      $('.mobile-mark .mobile-item-search').on('click',function(){
+      $('.mobile-mark .mobile-item-search').on('touchend',function(){
         searchbox.toggleClass('active');
         if($(this).hasClass('active')){
           if(nav.hasClass('active')){
-            $('.mobile-mark .mobile-item-nav').trigger('click');
+            $('.mobile-mark .mobile-item-nav').trigger('touchend');
           }
           searchbox.transition({height:searchboxHeight,padding:searchboxPadding},200,'out');
           translateElements.transition({y:searchboxHeight + searchboxPadding*2 },200,'out');
@@ -33,12 +33,12 @@
           translateElements.transition({y:0 },200,'out');
         }
       });
-      $('.mobile-mark .mobile-item-nav').on('click',function(){
+      $('.mobile-mark .mobile-item-nav').on('touchend',function(){
         nav.toggleClass('active');
         menuItems.removeClass('active');
         if(nav.hasClass('active')){
           if(searchbox.hasClass('active')){
-            $('.mobile-mark .mobile-item-search').trigger('click');
+            $('.mobile-mark .mobile-item-search').trigger('touchend');
           }
           nav.transition({height:navHeight_initial},200,'out');
           translateElements.transition({y:navHeight_initial},200,'out');
@@ -51,7 +51,7 @@
       menuItems.each(function(){
         var _this = $(this); 
             aTag = _this.children('a');
-        aTag.on('click',function(e){
+        aTag.on('touchend',function(e){
           if(!_this.hasClass('active')){
             navHeight += _this.children('.sub-menu').height();
             nav.transition({height:navHeight},200,'out');
