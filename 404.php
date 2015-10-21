@@ -1,6 +1,7 @@
 <?php
 /**
   404 template
+  this comments should be updated
  */
 
 get_header(); ?>
