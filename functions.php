@@ -229,7 +229,7 @@
       foreach ($comments as $comment) {
         //if comment is not pingback or trackback and comment is not on the password protected
         $post = get_post( $comment->comment_post_ID );
-        if( empty ($comment->comment_type ) && empty ( $post->post_password ) ){
+        if( (empty ($comment->comment_type ) || $comment->comment_type == 'comment') && empty ( $post->post_password ) ){
           $output .= '<li class="clearfix">'. get_avatar($comment, $avatarSize) .'<div class="comment-data"><a class="title" href="' . get_permalink($comment->comment_post_ID) . "#comment-" . $comment->comment_ID . '" title="on ' . strip_tags( $post->post_title) . '">' . wp_html_excerpt( strip_tags ( $comment->comment_content), $excerptLength ) . '</a>' .'<span class="comment_author detailed visible-desktop">From <span class="author">' . $comment->comment_author . '</span>&nbsp;&nbsp;<span class="date">' . $comment->comment_date . "</span></span></div></li>\n";
           $valid_comments_number++;
           if( $valid_comments_number == $count )
