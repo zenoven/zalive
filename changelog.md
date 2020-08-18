@@ -1,3 +1,6 @@
+### 1.3.5 ###
+* fix recent comments widget not compatible with WordPress 5.5 issue.
+
 ### 1.3.4 ###
 * better editor style
 
@@ -22,10 +25,10 @@
 * add French translation(thanks to Geek01).
 
 ### 1.2.11 ###
-* fix the bug that slider and secondary-sidebar showing on blog post page(not homepage) even the setting is 'Enable in Home Page'. 
+* fix the bug that slider and secondary-sidebar showing on blog post page(not homepage) even the setting is 'Enable in Home Page'.
 
 ### 1.2.10 ###
-* add 'Read More' link for custom excerpt by modifying functions and filters. 
+* add 'Read More' link for custom excerpt by modifying functions and filters.
 * optimize mobile platform CSS styles.
 
 ### 1.2.9 ###
@@ -60,14 +63,14 @@
 * optimize the style of post content.
 * optimize the style.css with better selectors, coding style and well comments.
 * add style for pages like: password protected page, 404.php, content-none.php and more.
-* add many theme options like: excerpt,primary sidebar layout, swithes(tagline,searchbox,breadcrumb and more), CSS code,scripts. 
-* add support for custom background. 
+* add many theme options like: excerpt,primary sidebar layout, swithes(tagline,searchbox,breadcrumb and more), CSS code,scripts.
+* add support for custom background.
 * add zAlive.pot in /languages and may be useful for translator.
 * rewrite custom widgets with better security.
 * providing better content pagination and comment pagination by using new functions or arguments.
 * replace footer widgets with secondary sidebar so that you can custom it with widgets you want.
 * organize php files with better file structure and naming(rename many php files or move them to sub folders)
-* remove GuestWall page template(as it may cause security issues)   
+* remove GuestWall page template(as it may cause security issues)
 
 ### 1.2.1 ###
 * add filter for wp_title.

@@ -1,6 +1,6 @@
 # zAlive WordPress Theme
 * Requires at least: 3.7
-* Tested up to: 4.0
+* Tested up to: 5.5
 * Author: zenoven
 * Theme URI: http://www.zenoven.com/themes/zAlive
 * Author URI: http://www.zenoven.com/
@@ -42,7 +42,7 @@ zAlive is a responsive two columns WordPress theme with green and black color. W
 3. Find the zAlive theme listing on this page and click 'Activate'
 
 
-## Licenses 
+## Licenses
 Unless otherwise specified, all the theme files, scripts and images are licensed under GNU General Public License version 3, see file license.txt.
 The exceptions to this license are as follows:
 * Bootstrap by Twitter and the Glyphicon set are licensed under the [GPL-compatible Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0)
